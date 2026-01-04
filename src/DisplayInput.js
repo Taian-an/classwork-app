@@ -36,4 +36,4 @@ function DisployInput() {
     </div>
   );
 }
-export default DisplayInput;
+export default DisployInput;
