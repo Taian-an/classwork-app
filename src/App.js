@@ -1,5 +1,6 @@
 // src/App.js 範例
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DisplayInput from './DisplayInput';
 import Register from './Register';
 
 function App() {
