@@ -17,7 +17,7 @@ function App() {
 
       <Routes>
         {/* 根路徑顯示作業 1 */}
-        <Route path="/" element={<DisplayInput />} />
+        <Route path="/displayinput" element={<DisplayInput />} />
         {/* /assignment2 路徑顯示作業 2 */}
         <Route path="/" element={<Register />} />
       </Routes>
