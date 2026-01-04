@@ -1,13 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SubmitDataForm from './SubmitDataForm';
+// src/App.js 範例
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Register from './Register';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/classwork-app">
       <Routes>
-        <Route path="/submit-data" element={<SubmitDataForm />} />
+        <Route path="/" element={<Register />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
+
 export default App;
