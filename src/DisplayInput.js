@@ -1,4 +1,4 @@
-// src/DisplayInput.js
+// src/DisployInput.js
 import React, { useState } from 'react';
 
 const genderOptions = ["Male", "Female", "Others"];
