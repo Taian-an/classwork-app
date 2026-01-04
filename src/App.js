@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import DisplayInput from './DisplayInput'; // 作業 1
+import DisployInput from './DisployInput'; // 作業 1
 import Register from './Register';         // 作業 2
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     // basename 必須與你的 GitHub 倉庫名稱完全一致
     <BrowserRouter basename="/classwork-app">
       <nav style={{ padding: '15px', backgroundColor: '#f8f9fa', borderBottom: '1px solid #ddd' }}>
-        <Link to="/displayinput" style={{ marginRight: '20px', fontWeight: 'bold', textDecoration: 'none', color: '#007bff' }}>
+        <Link to="/disployinput" style={{ marginRight: '20px', fontWeight: 'bold', textDecoration: 'none', color: '#007bff' }}>
           Assignment 1 (Display)
         </Link>
         <Link to="/" style={{ fontWeight: 'bold', textDecoration: 'none', color: '#007bff' }}>
@@ -17,7 +17,7 @@ function App() {
 
       <Routes>
         {/* 根路徑顯示作業 1 */}
-        <Route path="/displayinput" element={<DisplayInput />} />
+        <Route path="/displayinput" element={<DisployInput />} />
         {/* /assignment2 路徑顯示作業 2 */}
         <Route path="/" element={<Register />} />
       </Routes>

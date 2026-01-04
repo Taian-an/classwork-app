@@ -5,7 +5,7 @@ const genderOptions = ["Male", "Female", "Others"];
 const hobbyOptions = ["Music", "Movies", "Plastic Model"];
 const roleOptions = ["General staff", "Developer", "System Analyst"];
 
-function DisployInput() {
+function DisplayInput() {
   const [formData, setFormData] = useState({ username: '', firstname: '', lastname: '', gender: '', role: 'General staff' });
   const [hobbies, setHobbies] = useState([]);
 
